@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101d36"/><stop offset="1" stop-color="#203f52"/></linearGradient><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#a5c7d5"/></marker></defs>
+<rect width="1100" height="500" rx="26" fill="url(#bg)"/>
+<text x="50" y="56" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#fff">FOREST FIRE RISK PREDICTION PIPELINE</text>
+<text x="50" y="84" font-family="Arial,sans-serif" font-size="15" fill="#b9d1dc">Multi-source data → machine learning → geospatial decision support</text>
+<g font-family="Arial,sans-serif">
+<rect x="45" y="130" width="220" height="245" rx="16" fill="#f6fafb"/><text x="65" y="165" font-size="19" font-weight="700" fill="#173348">01 · INPUTS</text>
+<rect x="65" y="187" width="180" height="35" rx="8" fill="#dcecf0"/><text x="155" y="210" text-anchor="middle" font-size="14" fill="#173348">Historical fire records</text>
+<rect x="65" y="232" width="180" height="35" rx="8" fill="#dcecf0"/><text x="155" y="255" text-anchor="middle" font-size="14" fill="#173348">Weather features</text>
+<rect x="65" y="277" width="180" height="35" rx="8" fill="#dcecf0"/><text x="155" y="300" text-anchor="middle" font-size="14" fill="#173348">Terrain & land cover</text>
+<rect x="65" y="322" width="180" height="35" rx="8" fill="#dcecf0"/><text x="155" y="345" text-anchor="middle" font-size="14" fill="#173348">NDVI & human factors</text>
+<path d="M270 252 H310" stroke="#a5c7d5" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="320" y="175" width="200" height="155" rx="16" fill="#e2f1e9"/><text x="420" y="210" text-anchor="middle" font-size="18" font-weight="700" fill="#1b4c40">02 · PREPARE</text><text x="420" y="247" text-anchor="middle" font-size="15" fill="#1b4c40">2 km × 2 km grid</text><text x="420" y="272" text-anchor="middle" font-size="15" fill="#1b4c40">Daily observations</text><text x="420" y="297" text-anchor="middle" font-size="15" fill="#1b4c40">Next-5-day target</text>
+<path d="M525 252 H565" stroke="#a5c7d5" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="575" y="130" width="220" height="245" rx="16" fill="#f6fafb"/><text x="595" y="165" font-size="19" font-weight="700" fill="#173348">03 · MODELS</text>
+<rect x="595" y="187" width="180" height="35" rx="8" fill="#dcecf0"/><text x="685" y="210" text-anchor="middle" font-size="14" fill="#173348">Random Forest</text>
+<rect x="595" y="232" width="180" height="35" rx="8" fill="#dcecf0"/><text x="685" y="255" text-anchor="middle" font-size="14" fill="#173348">XGBoost</text>
+<rect x="595" y="277" width="180" height="35" rx="8" fill="#dcecf0"/><text x="685" y="300" text-anchor="middle" font-size="14" fill="#173348">Balanced XGBoost</text>
+<rect x="595" y="322" width="180" height="35" rx="8" fill="#dcecf0"/><text x="685" y="345" text-anchor="middle" font-size="14" fill="#173348">LightGBM</text>
+<path d="M800 252 H840" stroke="#a5c7d5" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="850" y="175" width="205" height="155" rx="16" fill="#f9e7dc"/><text x="952" y="210" text-anchor="middle" font-size="18" font-weight="700" fill="#6b3522">04 · DECISION</text><text x="952" y="247" text-anchor="middle" font-size="15" fill="#6b3522">Risk scores</text><text x="952" y="272" text-anchor="middle" font-size="15" fill="#6b3522">Grid risk map</text><text x="952" y="297" text-anchor="middle" font-size="15" fill="#6b3522">Streamlit UI</text>
+<text x="50" y="440" font-size="14" fill="#b9d1dc">Study areas: İzmir · Muğla · Antalya, Türkiye</text><text x="50" y="465" font-size="12" fill="#8faebb">Research prototype · not an official warning system</text>
+</g></svg>
