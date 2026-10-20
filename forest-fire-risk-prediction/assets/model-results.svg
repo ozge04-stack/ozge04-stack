@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440">
+<rect width="1000" height="440" rx="24" fill="#f7fafc"/><text x="48" y="52" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#152f43">REPORTED FINAL MODEL PERFORMANCE</text><text x="48" y="80" font-family="Arial,sans-serif" font-size="14" fill="#526b7a">Headline metrics reported in the graduation thesis · values from 0 to 1</text>
+<g font-family="Arial,sans-serif" font-size="14" fill="#263e4e">
+<text x="48" y="140" font-weight="700">Study area</text><text x="255" y="140" font-weight="700">Accuracy</text><text x="510" y="140" font-weight="700">ROC-AUC</text><text x="765" y="140" font-weight="700">F1-score</text>
+<text x="48" y="190">İzmir</text><text x="48" y="260">Muğla</text><text x="48" y="330">Antalya</text>
+</g>
+<g>
+<rect x="255" y="165" width="210" height="28" rx="7" fill="#e1e9ef"/><rect x="255" y="165" width="201.35" height="28" rx="7" fill="#4c8a9e"/><text x="470" y="185" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.9588</text>
+<rect x="510" y="165" width="210" height="28" rx="7" fill="#e1e9ef"/><rect x="510" y="165" width="206.75" height="28" rx="7" fill="#4c8a9e"/><text x="725" y="185" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.9845</text>
+<rect x="765" y="165" width="150" height="28" rx="7" fill="#e1e9ef"/><rect x="765" y="165" width="118.91" height="28" rx="7" fill="#d28a58"/><text x="923" y="185" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.7927</text>
+<rect x="255" y="235" width="210" height="28" rx="7" fill="#e1e9ef"/><rect x="255" y="235" width="204.79" height="28" rx="7" fill="#4c8a9e"/><text x="470" y="255" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.9752</text>
+<rect x="510" y="235" width="210" height="28" rx="7" fill="#e1e9ef"/><rect x="510" y="235" width="208.51" height="28" rx="7" fill="#4c8a9e"/><text x="725" y="255" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.9929</text>
+<rect x="765" y="235" width="150" height="28" rx="7" fill="#e1e9ef"/><rect x="765" y="235" width="129.99" height="28" rx="7" fill="#d28a58"/><text x="923" y="255" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.8666</text>
+<rect x="255" y="305" width="210" height="28" rx="7" fill="#e1e9ef"/><rect x="255" y="305" width="202.63" height="28" rx="7" fill="#4c8a9e"/><text x="470" y="325" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.9649</text>
+<rect x="510" y="305" width="210" height="28" rx="7" fill="#e1e9ef"/><rect x="510" y="305" width="207.68" height="28" rx="7" fill="#4c8a9e"/><text x="725" y="325" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.9897</text>
+<rect x="765" y="305" width="150" height="28" rx="7" fill="#e1e9ef"/><rect x="765" y="305" width="123.80" height="28" rx="7" fill="#d28a58"/><text x="923" y="325" font-family="Arial,sans-serif" font-size="14" fill="#173348">0.8253</text>
+</g>
+<text x="48" y="395" font-family="Arial,sans-serif" font-size="13" fill="#526b7a">Accuracy and ROC-AUC are high; F1-score is also reported to provide a more balanced view.</text><text x="48" y="416" font-family="Arial,sans-serif" font-size="12" fill="#718895">Historical evaluation metrics do not guarantee future operational performance.</text>
+</svg>
