@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I'm Özge Çakır 👋
 
-<!--
-**ozge04-stack/ozge04-stack** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm an Industrial Engineer interested in using data, technology, and analytical thinking to solve real-world problems.
 
-Here are some ideas to get you started:
+My focus areas include:
+- 📊 Business & Data Analytics
+- ⚙️ Process Improvement & Lean Manufacturing
+- 🏭 Production Systems & Simulation
+- 🧮 Optimization & Operations Research
+- 🤖 Artificial Intelligence & Machine Learning
+- 🗄️ SQL & Database Design
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tools & Technologies
+
+Python · SQL · MATLAB · Arena Simulation · Excel · Minitab
+
+### 📂 Projects
+
+- **Manufacturing Facility Design** — Facility layout, line balancing, and material handling.
+- **Metro Line Simulation** — Modeling and analyzing metro operations using Arena Simulation.
+- **E-Commerce Database** — Relational database design using Microsoft Access and SQL.
+
+I'm interested in opportunities where engineering, data, and technology come together to improve business and operational performance.
